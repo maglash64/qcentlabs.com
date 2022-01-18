@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://qcentlabs.com/sitemap.xml
