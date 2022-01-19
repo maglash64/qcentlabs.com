@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://qcentlabs.com/categories/</loc>
+    <loc>http://qcentlabs.com/posts/init/</loc>
+    <lastmod>2022-01-19T04:52:39+05:30</lastmod>
+  </url><url>
+    <loc>http://qcentlabs.com/posts/</loc>
+    <lastmod>2022-01-19T04:52:39+05:30</lastmod>
   </url><url>
     <loc>http://qcentlabs.com/</loc>
+    <lastmod>2022-01-19T04:52:39+05:30</lastmod>
+  </url><url>
+    <loc>http://qcentlabs.com/about/</loc>
+  </url><url>
+    <loc>http://qcentlabs.com/categories/</loc>
   </url><url>
     <loc>http://qcentlabs.com/tags/</loc>
   </url>
