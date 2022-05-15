@@ -21,12 +21,13 @@
     </item>
     
     <item>
-      <title>.init</title>
+      <title>STM32F103 Custom USB</title>
       <link>http://qcentlabs.com/posts/stm32usb/</link>
       <pubDate>Fri, 19 Nov 2021 01:12:36 +0530</pubDate>
       
       <guid>http://qcentlabs.com/posts/stm32usb/</guid>
-      <description></description>
+      <description>Recently i got into USB device driver development for linux, I&amp;rsquo;ve always wanted to know how USB works at hardware as well as software level. So i fired up google and looked up for USB specifications, and general documentation for it.
+The best resource&amp;rsquo;s on the internet that i found were www.usbmadesimple.co.ukand the book USB complete by Jan Alexson. The guys at usbmadesimple.co.uk explained the gist of USB in a very easy to understand manner, I highly recommend anyone going into USB to give it a go, then the book USB Complete gives detailed overview of every concept.</description>
     </item>
     
     <item>
