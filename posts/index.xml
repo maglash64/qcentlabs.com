@@ -20,5 +20,14 @@
       <description>hugo init success.</description>
     </item>
     
+    <item>
+      <title>Hacking Logitech G402 Mouse to a Camera</title>
+      <link>http://qcentlabs.com/posts/g402_hack/</link>
+      <pubDate>Wed, 19 Jan 2022 04:52:39 +0530</pubDate>
+      
+      <guid>http://qcentlabs.com/posts/g402_hack/</guid>
+      <description>Does this work?</description>
+    </item>
+    
   </channel>
 </rss>
