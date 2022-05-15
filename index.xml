@@ -22,8 +22,17 @@
     
     <item>
       <title>.init</title>
-      <link>http://qcentlabs.com/posts/init/</link>
+      <link>http://qcentlabs.com/posts/stm32usb/</link>
       <pubDate>Fri, 19 Nov 2021 01:12:36 +0530</pubDate>
+      
+      <guid>http://qcentlabs.com/posts/stm32usb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>.init</title>
+      <link>http://qcentlabs.com/posts/init/</link>
+      <pubDate>Mon, 19 Oct 2020 00:01:36 +0530</pubDate>
       
       <guid>http://qcentlabs.com/posts/init/</guid>
       <description>hugo init success.</description>
