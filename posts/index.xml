@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 19 Jan 2022 04:52:39 +0530</lastBuildDate><atom:link href="http://qcentlabs.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hacking Logitech G402 Mouse to make a Camera!</title>
-      <link>http://qcentlabs.com/posts/g402_hack/g402_hack/</link>
+      <link>http://qcentlabs.com/posts/g402_hack/</link>
       <pubDate>Wed, 19 Jan 2022 04:52:39 +0530</pubDate>
       
-      <guid>http://qcentlabs.com/posts/g402_hack/g402_hack/</guid>
+      <guid>http://qcentlabs.com/posts/g402_hack/</guid>
       <description>Soo&amp;hellip;some time ago(like maybe 1-2 years?), I saw a video on youtube by the 8-bit guy where he showed how an optical mouse works.
 He showed a really old mouse and was able to connect it to an old computer which ran BASIC. The he wrote a progam in BASIC to pixel grab data out of the sensor and display it on screen.
 I was really amazed by this, But the image produced was very crude and the frame rate was very slow (more like spf instead of fps).</description>
