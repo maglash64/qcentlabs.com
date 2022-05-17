@@ -20,7 +20,7 @@
       <description>So few years ago NXP released a new series of MCU&amp;rsquo;s called &amp;ldquo;Cortex M on Steroids&amp;rdquo;.
 Yeah, right.. They(NXP) weren&amp;rsquo;t joking when they released the IMX RT series of MCUs.
 These are called crossover MCUs because they lie in between Application processors and normal MCUs,
-Almost all of them feature atleast a ARM Cortex M7 core clocked at 500Mhz(some at 1Ghz+) or above for the consumer version.
+Almost all of them feature atleast an ARM Cortex M7 core clocked at 500Mhz(some at 1Ghz+) or above for the consumer version.
 Some like MIMXRT1160/1170 also include a ARM Cortex M4 alongside the 1Ghz M7!</description>
     </item>
     
