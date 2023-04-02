@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://qcentlabs.com/posts/mimxrt1010/</loc>
-    <lastmod>2022-02-19T10:12:39+05:30</lastmod>
+    <loc>http://qcentlabs.com/posts/synaptics_hack/</loc>
+    <lastmod>2022-12-19T01:09:32+05:30</lastmod>
   </url><url>
     <loc>http://qcentlabs.com/posts/</loc>
-    <lastmod>2022-02-19T10:12:39+05:30</lastmod>
+    <lastmod>2022-12-19T01:09:32+05:30</lastmod>
   </url><url>
     <loc>http://qcentlabs.com/</loc>
+    <lastmod>2022-12-19T01:09:32+05:30</lastmod>
+  </url><url>
+    <loc>http://qcentlabs.com/posts/mimxrt1010/</loc>
     <lastmod>2022-02-19T10:12:39+05:30</lastmod>
   </url><url>
     <loc>http://qcentlabs.com/posts/g402_hack/</loc>
@@ -23,8 +26,6 @@
     <loc>http://qcentlabs.com/about/</loc>
   </url><url>
     <loc>http://qcentlabs.com/categories/</loc>
-  </url><url>
-    <loc>http://qcentlabs.com/posts/synaptics_hack/</loc>
   </url><url>
     <loc>http://qcentlabs.com/tags/</loc>
   </url>
