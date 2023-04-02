@@ -58,14 +58,5 @@ The best resource&amp;rsquo;s on the internet that i found were www.usbmadesimpl
 The guys at usbmadesimple.co.uk explained the gist of USB in a very easy to understand manner, I highly recommend anyone going into USB to give it a go, then the book USB Complete gives detailed overview of every concept.</description>
     </item>
     
-    <item>
-      <title>.init</title>
-      <link>http://qcentlabs.com/posts/init/</link>
-      <pubDate>Mon, 19 Oct 2020 00:01:36 +0530</pubDate>
-      
-      <guid>http://qcentlabs.com/posts/init/</guid>
-      <description>hugo init success.</description>
-    </item>
-    
   </channel>
 </rss>
