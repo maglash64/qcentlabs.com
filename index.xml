@@ -43,7 +43,7 @@ I was really amazed by this, But the image produced was very crude and the frame
       <guid>http://qcentlabs.com/posts/stm32usb/</guid>
       <description>Recently i got into USB device driver development for linux, I&amp;rsquo;ve always wanted to know how USB works at hardware as well as software level.
 So i fired up google and looked up for USB specifications, and general documentation for it.
-The best resource&amp;rsquo;s on the internet that i found were www.usbmadesimple.co.ukand the book USB complete by Jan Alexson.
+The best resource&amp;rsquo;s on the internet that i found were www.usbmadesimple.co.uk and the book USB complete by Jan Alexson.
 The guys at usbmadesimple.co.uk explained the gist of USB in a very easy to understand manner, I highly recommend anyone going into USB to give it a go, then the book USB Complete gives detailed overview of every concept.</description>
     </item>
     
@@ -66,6 +66,15 @@ The guys at usbmadesimple.co.uk explained the gist of USB in a very easy to unde
 My name is Ankit Sharma and I am an Embedded Systems Engineer!
 I made this blog to share my journey as i explore the nooks and crannies of hardware and software.
 I have a keen interest in knowing how things work under the hood.</description>
+    </item>
+    
+    <item>
+      <title>Hacking an Synaptics touchpad.</title>
+      <link>http://qcentlabs.com/posts/synaptics_hack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://qcentlabs.com/posts/synaptics_hack/</guid>
+      <description>Draft.</description>
     </item>
     
   </channel>
