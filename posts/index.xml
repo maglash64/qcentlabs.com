@@ -10,7 +10,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Dec 2022 01:09:32 +0530</lastBuildDate><atom:link href="http://qcentlabs.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Jan 2023 03:19:12 +0530</lastBuildDate><atom:link href="http://qcentlabs.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IMXRT, The Fastest GPIO Toggler in Town</title>
+      <link>http://qcentlabs.com/posts/fast_gpio/</link>
+      <pubDate>Sat, 14 Jan 2023 03:19:12 +0530</pubDate>
+      
+      <guid>http://qcentlabs.com/posts/fast_gpio/</guid>
+      <description>Speed, I am Speed&amp;hellip;: So what&amp;rsquo;s the first thing you do when you get a new microcontroller to play?
+Blink an LED of course!</description>
+    </item>
+    
     <item>
       <title>Hacking a Synaptics touchpad.</title>
       <link>http://qcentlabs.com/posts/synaptics_hack/</link>
@@ -20,16 +30,6 @@
       <description>The Backstory: I&amp;rsquo;ve had a few laptops over the years, one of the first thing I do whenever I&amp;rsquo;ve got a new piece of hardware is open it up.
 Well, I live in India and the environment here is quite dusty, so this act of opening and cleaning happens quite often.
 Unfortunately If you own a laptop with a plastic body this becomes quite an issue, As the plastic body laptops have knurled nuts pushed into the body, the plastic housing&amp;rsquo;s of these nuts tend to break over time if you regularly screw and unscrew them.</description>
-    </item>
-    
-    <item>
-      <title>IMXRT, The Fastest GPIO Toggler in Town</title>
-      <link>http://qcentlabs.com/posts/fast_gpio/</link>
-      <pubDate>Mon, 19 Dec 2022 01:09:32 +0530</pubDate>
-      
-      <guid>http://qcentlabs.com/posts/fast_gpio/</guid>
-      <description>Speed, I am Speed&amp;hellip;: So what&amp;rsquo;s the first thing you do when you get a new microcontroller to play?
-Blink an LED of course!</description>
     </item>
     
     <item>
