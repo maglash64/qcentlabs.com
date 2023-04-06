@@ -20,7 +20,9 @@
       <description>Speed, I am Speed&amp;hellip;. So what&amp;rsquo;s the first thing you do when you get a new microcontroller to play?
 Blink an LED of course!
 And for that you toggle a GPIO&amp;hellip;
-So now the question is how fast can your MCU toggle that juicy GPIO?</description>
+So now the question is how fast can your MCU toggle that juicy GPIO?
+So recently NXP sent me samples of their IMXRT Series of crossover MCUs,
+These include the MIMXRT1172,MIMXRT1166,MIMXRT595 along with a devkit for MIMXRT1166!</description>
     </item>
     
     <item>
