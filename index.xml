@@ -23,6 +23,16 @@ Unfortunately If you own a laptop with a plastic body this becomes quite an issu
     </item>
     
     <item>
+      <title>IMXRT, The Fastest GPIO Toggler in Town</title>
+      <link>http://qcentlabs.com/posts/fast_gpio/</link>
+      <pubDate>Mon, 19 Dec 2022 01:09:32 +0530</pubDate>
+      
+      <guid>http://qcentlabs.com/posts/fast_gpio/</guid>
+      <description>Speed, I am Speed&amp;hellip;: So what&amp;rsquo;s the first thing you do when you get a new microcontroller to play?
+Blink an LED of course!</description>
+    </item>
+    
+    <item>
       <title>Making an Arduino Killer.</title>
       <link>http://qcentlabs.com/posts/mimxrt1010/</link>
       <pubDate>Sat, 19 Feb 2022 10:12:39 +0530</pubDate>
