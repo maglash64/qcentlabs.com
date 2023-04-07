@@ -21,9 +21,9 @@
 Blink an LED of course!
 And for that you toggle a GPIO&amp;hellip;
 So now the question is how fast can your MCU toggle that juicy GPIO?
-So recently NXP sent me samples of their IMXRT Series of crossover MCUs,
+Recently NXP sent me samples of their IMXRT Series of crossover MCUs,
 These include the MIMXRT1172,MIMXRT1166,MIMXRT595 along with a devkit for MIMXRT1166!
-Now If were not living under the rock for the past few years(or are not into electronics/tech in general),</description>
+Now If you were not living under the rock for the past few years(or are not into electronics/tech in general),</description>
     </item>
     
     <item>
