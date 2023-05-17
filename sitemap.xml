@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://qcentlabs.com/posts/fast_gpio/</loc>
-    <lastmod>2023-01-14T03:19:12+05:30</lastmod>
+    <loc>http://qcentlabs.com/posts/gpu_in_mcu/</loc>
+    <lastmod>2023-02-28T01:11:06+05:30</lastmod>
   </url><url>
     <loc>http://qcentlabs.com/posts/</loc>
-    <lastmod>2023-01-14T03:19:12+05:30</lastmod>
+    <lastmod>2023-02-28T01:11:06+05:30</lastmod>
   </url><url>
     <loc>http://qcentlabs.com/</loc>
+    <lastmod>2023-02-28T01:11:06+05:30</lastmod>
+  </url><url>
+    <loc>http://qcentlabs.com/posts/fast_gpio/</loc>
     <lastmod>2023-01-14T03:19:12+05:30</lastmod>
   </url><url>
     <loc>http://qcentlabs.com/posts/synaptics_hack/</loc>
