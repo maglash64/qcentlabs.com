@@ -10,7 +10,19 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Mar 2023 04:21:11 +0530</lastBuildDate><atom:link href="http://qcentlabs.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jun 2023 01:15:13 +0530</lastBuildDate><atom:link href="http://qcentlabs.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making my own Programmer/Debugger using ARM SWD.</title>
+      <link>http://qcentlabs.com/posts/swd_banger/</link>
+      <pubDate>Tue, 27 Jun 2023 01:15:13 +0530</pubDate>
+      
+      <guid>http://qcentlabs.com/posts/swd_banger/</guid>
+      <description>So, recently at my day job our team needed to develop a PCB test JIG for mass manufacturing/testing of the assembled PCBs.
+To increase the efficiency of this test process, the idea of testing and programming multiple boards at once came into my mind.
+Initially I thought of using multiple Debuggers/Programmers to flash code into multiple boards at once, but as you know, most of these debuggers aren&amp;rsquo;t cheap.
+Except for ST-link V2 clones which are available at dirt cheap prices, all other debuggers cost at least 10s of dollars and from then on special mass production versions of J-link can go on for 1000s of dollars not including professional software that you need to purchase separately for flash programming in a manufacturing setting.</description>
+    </item>
+    
     <item>
       <title>Machine Learning on Microcontrollers.</title>
       <link>http://qcentlabs.com/posts/ml_on_mcu/</link>

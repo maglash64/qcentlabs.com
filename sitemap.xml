@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://qcentlabs.com/posts/ml_on_mcu/</loc>
-    <lastmod>2023-03-02T04:21:11+05:30</lastmod>
+    <loc>http://qcentlabs.com/posts/swd_banger/</loc>
+    <lastmod>2023-06-27T01:15:13+05:30</lastmod>
   </url><url>
     <loc>http://qcentlabs.com/posts/</loc>
-    <lastmod>2023-03-02T04:21:11+05:30</lastmod>
+    <lastmod>2023-06-27T01:15:13+05:30</lastmod>
   </url><url>
     <loc>http://qcentlabs.com/</loc>
+    <lastmod>2023-06-27T01:15:13+05:30</lastmod>
+  </url><url>
+    <loc>http://qcentlabs.com/posts/ml_on_mcu/</loc>
     <lastmod>2023-03-02T04:21:11+05:30</lastmod>
   </url><url>
     <loc>http://qcentlabs.com/posts/gpu_in_mcu/</loc>
