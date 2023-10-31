@@ -10,7 +10,20 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Jun 2023 01:15:13 +0530</lastBuildDate><atom:link href="http://qcentlabs.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Oct 2023 11:51:12 +0530</lastBuildDate><atom:link href="http://qcentlabs.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Core Wars, ARM Cortex M0 vs M3 vs M4 vs M7</title>
+      <link>http://qcentlabs.com/posts/cortex-wars/</link>
+      <pubDate>Mon, 16 Oct 2023 11:51:12 +0530</pubDate>
+      
+      <guid>http://qcentlabs.com/posts/cortex-wars/</guid>
+      <description>Microcontrollers are powerful tiny computers, and it&amp;rsquo;s no surprise that we love them here at qcentlabs.
+But what sets different microcontrollers apart?
+Well, Microcontrollers essentially are made up of a CPU core, some memory and specialized peripherals. Almost all modern microcontrollers feature a RISC based core.
+These core are either made in house or are licensed from a separate core IP vendor.
+Example of popular in house developed architecture and core include AVR,PIC,MSP430 etc.</description>
+    </item>
+    
     <item>
       <title>Making my own Programmer/Debugger using ARM SWD.</title>
       <link>http://qcentlabs.com/posts/swd_banger/</link>
