@@ -1,0 +1,110 @@
+---
+title: "The Core Wars, ARM Cortex M0 vs M3 vs M4 vs M7"
+date: 2023-10-16T11:51:12+05:30
+draft: true
+---
+
+Microcontrollers are powerful tiny computers, and it's no surprise that we love them here at qcentlabs.
+
+But what sets different microcontrollers apart?
+
+Well, Microcontrollers essentially are made up of a CPU core, some memory and specialized peripherals. 
+Almost all *modern* microcontrollers feature a RISC based core.
+
+These core are either made in house or are licensed from a separate core IP vendor.
+
+Example of popular in house developed architecture and core include AVR,PIC,MSP430 etc..
+
+Examples of popular licensed architecture and core include ARM Cortex-M, Xtensa etc..
+
+For a long time, the MCU space has been segmented into 3 parts, 8bit MCUs, 16bit MCUs and 32bit MCUs.
+
+Although 8 and 16 bit MCUs have a huge legacy in the industry, the 32bit MCUs are slowly replacing them even at somewhat cost sensitive applications.
+
+ARM Cortex-M offers some of the most popular cores in the 32bit microcontroller space.
+
+Today we will have a look into what is the difference between different cores in the ARM Cortex-M series, so that you can be sure that you have chosen the right MCU for your application.
+
+## The ARM Cortex-M
+
+ARM Cortex-M refers to a series of 32bit core IP developed by ARM limited for the general industrial/consumer microcontroller market targeting low power and low cost applications.
+
+Under ARM's Cortex-M series, different cores were developed to target different segments of the market.
+
+As microcontrollers can be found in things as simple as light switches or toys, to things as complicated as medical ventilators, different cores were designed to cater specific need in terms of compute capabilty, power draw and cost.
+
+Under the Cortex-M umbrella, ARM launched its first core, **Cortex-M3** in october of 2004.
+
+The Cortex-M3 was meant to be the mainstream core in the Cortex-M lineup.
+
+It was based on the ARMv7-M architecture and ran the Thumb2 ISA, had a 3 stage integer pipeline, instructions for hardware division, single-cycle multiply capability and consumed a measly 11uW/Mhz.
+
+Why was so special in this? 
+
+Well in the early 2000s, the microcontroller industry was mainly dominated by 8bit and 16bit CPU cores, these include the PIC family from Microchip and the AVR family from Atmel.
+
+The thing with these 8 bit PICs and AVRs was that they did not have native division instructions! some even did not have multiply instructions! Thus division and multiplication operations had to be done in software which was very slow for compute intensive applications! 
+
+AVRs and PICs later (AVR4+ & PIC18+) did add support for hardware multiply but it took more than 1 cycle and in most cases only produced a 16 bit result.
+
+Compared to these 8bit counterparts, the Cortex-M3 was capable of hardware division in under 2-12(worst case) cycles and had single cycle 32bit * 32bit multiply with 32bit result capability, which destroyed the 8bit cores in compute.
+
+But this was not all, no-no sir, ARM entered the market seeking utter destruction.
+
+Cortex-M3 had NVIC(Nested Vectored Interrupt Controller) for low latency interrupt handling, providing:
+* Support for upto 240 interrupts with 256 priority levels of which first 16 interrupts are core CPU exceptions.
+* Support for interrupt preemption based on priority.
+* Support for tail-chaining and automatic state saving and restoring.
+* Support for relocation of vector table using a dedicated register.
+
+Being a memory mapped architecture, Cortex-M3 featured a MPU(Memory Protection Unit) that enabled upto 8 memory regions to be defined that had specific access permissions associated with them.
+
+ARMv7-M being a load-store architecture, support was included for bit-banding which allowed toggling of individual bits in certain sections of memory which reduced code footprint and improved performance.
+
+Cortex-M3 also had inbuild support for 2 low power modes termed Sleep and Deep Sleep and additional support for an optional WIC(Wake-up Interrupt Controller) with SRPG(State Retention and Power Gating) so that the whole core can be power and clock gated in deep sleep.
+
+The Cortex-M3 had great support for fault handling with dedicated exceptions and special pourpose registers that immensely helped with debugging. 
+
+The Cortex-M3 also had an inbuilt 24bit timer that could be driven by the CPU clock called SysTick.
+
+ARM also provived an ecosystem of IPs and options along with the base core IP that helped designers expand the capabilities of the core, this included support for debugging and trace components such as DAP, ETM, ITM, ARM PrimeCell IP for bus matirx, GPIO, and various other peripherals.
+
+All in all, this was a terrific package that would become highly successful in the industry.
+
+Around 2009, ARM introduced an even more optimized design intended for extremely small silicon area and very low power to be used in highly cost sensitive applications that only required little compute i.e a direct competition to still popular 8bit MCUs.
+
+This was the **Cortex-M0**, it was based on the ARMv6-M architecture which was a departure from the Cortex-M3's ARMv7-M.
+
+As ARMv6-M only had support for 16bit Thumb1 instructions and very limited 32bit instructions for a total of 56 instructions, it was a very efficient in terms of code space and power.
+
+Interrupts were cut down from 240 to just 32 (of which only 2 were core CPU exceptions).
+
+Hardware support for multiply instruction was included but divion instruction was removed.
+
+MPU support was removed and so was support for dedicated fault exceptions and special registers.
+
+This core became popular for low pin count low cost MCUs and was also used as a secondry core coupled with a more powerful core later on in its life, altough it would be later superseded with a newer version of itself. 
+
+In 2010 ARM introduced the **Cortex-M4**, which essentialy was a juiced up Cortex-M3.
+
+Cortex-M4 was the first IP in the Cortex-M lineup that had inbuilt support for DSP/SIMD instructions.
+
+Cortex-M4 was also the first to feature an optional IEEE 754 complient Single Precision FPU.
+
+Before Cortex-M4, the industry generally used a specialised DSP chip along with a seperate MCU for general DSP applications, with Cortex-M4, ARM combined both a DSP and a MCU into a single chip solution by adding special SIMD instructions. 
+
+Cortex-M4 became the go to choice for medium to high performance applications in respect to the MCU world.
+
+
+
+Architecture?
+Bus size?
+
+
+
+
+Difference between different ARM cores.
+
+Performance benchmark of each core.
+
+which core to choose and why?
