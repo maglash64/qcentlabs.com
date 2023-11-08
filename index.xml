@@ -13,10 +13,10 @@
     <lastBuildDate>Mon, 16 Oct 2023 11:51:12 +0530</lastBuildDate><atom:link href="http://qcentlabs.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Core Wars, ARM Cortex M0&#43; vs M3 vs M4 vs M7</title>
-      <link>http://qcentlabs.com/posts/cortex-wars/</link>
+      <link>http://qcentlabs.com/posts/core-wars/</link>
       <pubDate>Mon, 16 Oct 2023 11:51:12 +0530</pubDate>
       
-      <guid>http://qcentlabs.com/posts/cortex-wars/</guid>
+      <guid>http://qcentlabs.com/posts/core-wars/</guid>
       <description>Microcontrollers are powerful tiny computers, and it&amp;rsquo;s no surprise that we love them here at qcentlabs.
 But what sets different microcontrollers apart?
 Well, Microcontrollers essentially are made up of a CPU core, some memory and specialized peripherals. Almost all modern microcontrollers feature a RISC based core.
