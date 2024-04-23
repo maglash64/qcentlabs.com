@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: http://maglash64.github.io/qcentlabs.com/sitemap.xml
+Sitemap: maglash64.github.io/qcentlabs.com/sitemap.xml
